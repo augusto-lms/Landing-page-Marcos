@@ -226,7 +226,6 @@ ul {
   align-items: center;
   justify-content: space-between;
   height: 100%;
-  /* Gap menor no mobile */
   gap: 0.5rem;
 }
 
@@ -236,6 +235,8 @@ ul {
   flex-direction: column;
   line-height: 1;
   flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo__name {
