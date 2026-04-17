@@ -1,64 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Mais de 32 anos conectando as melhores marcas de Jeanswear aos lojistas de sucesso no Triângulo Mineiro e Norte de Minas." />
-  <meta name="author" content="Marcos Camargo Garcia" />
-  <meta property="og:title" content="Marcos Camargo | Representante Comercial de Moda" />
-  <meta property="og:description" content="32 anos de experiência conectando marcas premium de moda ao varejo no Triângulo Mineiro e Norte de Minas." />
-  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#1a2f6e" />
   <title>Marcos Camargo Garcia | Representante Comercial de Moda</title>
 
-  <!-- Google Fonts -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
-  <!-- Stylesheet -->
+  <!-- CSS -->
   <link rel="stylesheet" href="css/style.css" />
-
 </head>
 
 <body>
 
-  <!-- ════════════════════════════════════════════════
-       HEADER — Sticky, transparente com blur
-       ════════════════════════════════════════════════ -->
-  <header class="header" id="header" role="banner">
+  <!-- ═══════════════════════════════════════════════════════
+       HEADER
+       ═══════════════════════════════════════════════════════ -->
+  <header class="header" id="header">
     <div class="container">
       <div class="header__inner">
-
-        <!-- Logo -->
-        <a href="#inicio" class="logo" aria-label="Ir para o topo">
+        
+        <a href="#inicio" class="logo">
           <span class="logo__name">Marcos Camargo</span>
           <span class="logo__sub">Representante Comercial</span>
         </a>
 
-        <!-- Nav Desktop -->
-        <nav class="nav" aria-label="Navegação principal">
-          <ul class="nav__links" role="list">
+        <nav class="nav">
+          <ul class="nav__links">
             <li><a href="#marcas" class="nav__link">Marcas</a></li>
-            <li><a href="#diferenciais" class="nav__link">Diferenciais</a></li>            <li><a href="#contato" class="nav__link">Contato</a></li>
+            <li><a href="#diferenciais" class="nav__link">Diferenciais</a></li>
+            <li><a href="#contato" class="nav__link">Contato</a></li>
           </ul>
 
-          <a
-            href="https://wa.me/553491971317?text=Olá%2C%20Marcos!%20Gostaria%20de%20agendar%20uma%20visita."
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn btn-primary"
-            aria-label="Agendar visita via WhatsApp"
-          >
-            <!-- WhatsApp icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <a href="https://wa.me/553491971317?text=Olá%2C%20Marcos!%20Gostaria%20de%20agendar%20uma%20visita." 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             class="btn btn-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
               <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
             </svg>
             Agendar Visita
           </a>
 
-          <!-- Mobile toggle -->
-          <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMobile">
+          <button class="nav__toggle" id="navToggle" aria-label="Menu">
             <span></span>
             <span></span>
             <span></span>
@@ -68,19 +57,16 @@
       </div>
     </div>
 
-    <!-- Mobile dropdown -->
-    <nav class="nav__mobile" id="navMobile" aria-label="Menu mobile" aria-hidden="true">
+    <!-- Mobile Menu -->
+    <nav class="nav__mobile" id="navMobile">
       <a href="#marcas" class="nav__link">Marcas</a>
       <a href="#diferenciais" class="nav__link">Diferenciais</a>
-      <a href="#lojas" class="nav__link">Portfólio</a>
       <a href="#contato" class="nav__link">Contato</a>
-      <a
-        href="https://wa.me/553491971317?text=Olá%2C%20Marcos!%20Gostaria%20de%20agendar%20uma%20visita."
-        target="_blank"
-        rel="noopener noreferrer"
-        class="btn btn-primary"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <a href="https://wa.me/553491971317?text=Olá%2C%20Marcos!%20Gostaria%20de%20agendar%20uma%20visita." 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         class="btn btn-primary">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
         </svg>
         Agendar Visita
@@ -91,38 +77,42 @@
 
   <main id="inicio">
 
-    <!-- ════════════════════════════════════════════════
-         HERO SECTION
-         ════════════════════════════════════════════════ -->
-    <section class="hero" aria-label="Apresentação">
+    <!-- ═══════════════════════════════════════════════════════
+         HERO — Mobile: foto círculo + texto centralizado
+                Desktop: grid 2 colunas com foto grande
+         ═══════════════════════════════════════════════════════ -->
+    <section class="hero">
       <div class="container">
-        <div class="hero__grid">
+        
+        <!-- Foto círculo pequena (mobile only) -->
+        <div class="hero__profile-circle">
+          <img src="img/Marcos-foto.png" alt="Marcos Camargo Garcia" />
+        </div>
 
-          <!-- Coluna de Texto -->
-          <div class="hero__text">
+        <!-- Grid Desktop -->
+        <div class="hero__grid">
+          
+          <!-- Coluna de Conteúdo -->
+          <div class="hero__content">
             <div class="hero__badge">
-              <span>Triângulo Mineiro, Alto Paranaíba &amp; Norte de MG</span>
+              Triângulo Mineiro, Alto Paranaíba &amp; Norte de MG
             </div>
 
             <h1 class="hero__title">
-              <em>Marcos Camargo Garcia:</em><br />
-              Representante comercial em moda para o Triângulo Mineiro, Alto Paranaíba e Norte de Minas.
+              <em>Marcos Camargo Garcia</em>
+              Tradição e curadoria em moda para sua loja
             </h1>
 
             <p class="hero__subtitle">
-              Mais de 32 anos conectando as melhores marcas de Jeanswear
-              aos lojistas de sucesso. Parceria, expertise e atendimento
-              personalizado em cada visita.
+              Mais de 32 anos conectando as melhores marcas de Jeanswear aos lojistas de sucesso. Parceria, expertise e atendimento personalizado.
             </p>
 
             <div class="hero__actions">
-              <a
-                href="https://wa.me/553491971317?text=Olá%2C%20Marcos!%20Gostaria%20de%20agendar%20uma%20visita."
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn btn-primary"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <a href="https://wa.me/553491971317?text=Olá%2C%20Marcos!%20Gostaria%20de%20agendar%20uma%20visita." 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="btn btn-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
                 </svg>
                 Agendar Visita
@@ -132,33 +122,23 @@
 
             <div class="hero__stats">
               <div class="stat">
-                <div class="stat__value">32+</div>
-                <div class="stat__label">Anos de<br />Experiência</div>
+                <span class="stat__value">32+</span>
+                <span class="stat__label">Anos de Experiência</span>
               </div>
               <div class="stat">
-                <div class="stat__value">3</div>
-                <div class="stat__label">Marcas<br />Premium</div>
+                <span class="stat__value">3</span>
+                <span class="stat__label">Marcas Premium</span>
               </div>
               <div class="stat">
-                <div class="stat__value">2</div>
-                <div class="stat__label">Regiões<br />Atendidas</div>
+                <span class="stat__value">2</span>
+                <span class="stat__label">Regiões Atendidas</span>
               </div>
             </div>
           </div>
 
-          <!-- Coluna de Imagem -->
-          <div class="hero__image-wrap">
-            <div class="hero__photo">
-              <img src="img/Marcos-foto.png" alt="Foto de perfil profissional de Marcos Camargo" style="width: 100%; height: 100%; object-fit: cover;">
-              <div class="hero__photo-inner">
-              </div>
-            </div>
-
-            <!-- Cards flutuantes decorativos -->
-            <div class="hero__float-card" aria-hidden="true">
-              <div class="float-value">32+</div>
-              <div class="float-label">Anos no Mercado</div>
-            </div>
+          <!-- Foto Desktop (oculta no mobile) -->
+          <div class="hero__photo-desktop" style="display: none;">
+            <img src="img/Marcos-foto.png" alt="Marcos Camargo Garcia - Foto Profissional" />
           </div>
 
         </div>
@@ -166,121 +146,118 @@
     </section>
 
 
-    <!-- ════════════════════════════════════════════════
-         SEÇÃO DE MARCAS
-         ════════════════════════════════════════════════ -->
-    <section class="brands" id="marcas" aria-label="Marcas representadas">
+    <!-- ═══════════════════════════════════════════════════════
+         MARCAS
+         ═══════════════════════════════════════════════════════ -->
+    <section class="brands" id="marcas">
       <div class="container">
 
         <header class="section-header reveal">
           <span class="section-label">Portfólio</span>
           <h2 class="section-title">Marcas Representadas</h2>
-          <div class="divider-ornament" aria-hidden="true">
+          <div class="divider-ornament">
             <span class="divider-ornament__line"></span>
             <span class="divider-ornament__diamond"></span>
             <span class="divider-ornament__line"></span>
           </div>
           <p class="section-desc">
-            Curadoria das marcas mais desejadas do Jeanswear nacional,
-            selecionadas para o sucesso da sua loja.
+            Curadoria das marcas mais desejadas do Jeanswear nacional, selecionadas para o sucesso da sua loja.
           </p>
         </header>
 
         <div class="brands__grid">
 
-          <!-- Card: Puramania -->
-          <article class="brand-card brand-card--puramania reveal reveal-delay-1" aria-label="Marca Puramania">
+          <!-- Puramania -->
+          <article class="brand-card brand-card--puramania reveal reveal-delay-1">
             <div class="brand-card__cover">
-              <img src="img/puramania-logo.png" alt="Logo da marca Puramania" style="width: 100%; height: 100%; object-fit: cover;">
+              <img src="img/puramania-logo.png" alt="Logo Puramania" />
             </div>
             <div class="brand-card__body">
               <div class="brand-card__tags">
                 <span class="tag tag--male">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="7" r="4"/><path d="M20 21a8 8 0 00-16 0"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="7" r="4"/><path d="M20 21a8 8 0 00-16 0"/>
+                  </svg>
                   Masculino
                 </span>
                 <span class="tag tag--female">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="7" r="4"/><path d="M20 21a8 8 0 00-16 0"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="7" r="4"/><path d="M20 21a8 8 0 00-16 0"/>
+                  </svg>
                   Feminino
                 </span>
               </div>
               <p class="brand-card__desc">
-                Peças com identidade forte e qualidade superior. A Puramania é sinônimo de tendência e caimento perfeito tanto no universo masculino quanto feminino.
+                Peças com identidade forte e qualidade superior. A Puramania é sinônimo de tendência e caimento perfeito.
               </p>
               <div class="brand-card__footer">
-                <a
-                  href="SEU_LINK_PURAMANIA_AQUI"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="btn btn-outline-navy"
-                  aria-label="Ver coleção atual da Puramania em PDF ou link externo"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                  Ver Coleção Atual
+                <a href="SEU_LINK_PURAMANIA_AQUI" target="_blank" rel="noopener noreferrer" class="btn btn-outline-navy">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/>
+                  </svg>
+                  Ver Coleção
                 </a>
               </div>
             </div>
           </article>
 
-          <!-- Card: YEXX -->
-          <article class="brand-card brand-card--yexx reveal reveal-delay-2" aria-label="Marca YEXX">
+          <!-- YEXX -->
+          <article class="brand-card brand-card--yexx reveal reveal-delay-2">
             <div class="brand-card__cover">
-              <img src="img/yexx-logo.png" alt="Logo da marca YEXX" style="width: 100%; height: 100%; object-fit: cover;">
+              <img src="img/yexx-logo.png" alt="Logo YEXX" />
             </div>
             <div class="brand-card__body">
               <div class="brand-card__tags">
                 <span class="tag tag--female">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="7" r="4"/><path d="M20 21a8 8 0 00-16 0"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="7" r="4"/><path d="M20 21a8 8 0 00-16 0"/>
+                  </svg>
                   Feminino
                 </span>
               </div>
               <p class="brand-card__desc">
-                Alta performance no segmento feminino. A YEXX entrega modelagem sofisticada, tecidos nobres e um DNA de moda que conquista o público exigente.
+                Alta performance no segmento feminino. Modelagem sofisticada, tecidos nobres e DNA de moda exigente.
               </p>
               <div class="brand-card__footer">
-                <a
-                  href="SEU_LINK_YEXX_AQUI"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="btn btn-outline-navy"
-                  aria-label="Ver coleção atual da YEXX em PDF ou link externo"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                  Ver Coleção Atual
+                <a href="SEU_LINK_YEXX_AQUI" target="_blank" rel="noopener noreferrer" class="btn btn-outline-navy">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/>
+                  </svg>
+                  Ver Coleção
                 </a>
               </div>
             </div>
           </article>
 
-          <!-- Card: Shot Jeans -->
-          <article class="brand-card brand-card--shot reveal reveal-delay-3" aria-label="Marca Shot Jeans">
+          <!-- Shot Jeans -->
+          <article class="brand-card brand-card--shot reveal reveal-delay-3">
             <div class="brand-card__cover">
-              <img src="img/shot-logo.jpg" alt="Logo da marca Shot Jeans" style="width: 100%; height: 100%; object-fit: cover;">
+              <img src="img/shot-logo.jpg" alt="Logo Shot Jeans" />
             </div>
             <div class="brand-card__body">
               <div class="brand-card__tags">
                 <span class="tag tag--male">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="7" r="4"/><path d="M20 21a8 8 0 00-16 0"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="7" r="4"/><path d="M20 21a8 8 0 00-16 0"/>
+                  </svg>
                   Masculino
                 </span>
                 <span class="tag tag--female">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="7" r="4"/><path d="M20 21a8 8 0 00-16 0"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="7" r="4"/><path d="M20 21a8 8 0 00-16 0"/>
+                  </svg>
                   Feminino
                 </span>
               </div>
               <p class="brand-card__desc">
-                Referência em Jeanswear, a Shot Jeans une modernidade e tradição em uma linha completa para o público masculino e feminino com excelente giro de loja.
+                Referência em Jeanswear. Une modernidade e tradição em linha completa com excelente giro de loja.
               </p>
               <div class="brand-card__footer">
-                <a
-                  href="SEU_LINK_SHOT_JEANS_AQUI"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="btn btn-outline-navy"
-                  aria-label="Ver coleção atual da Shot Jeans em PDF ou link externo"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                  Ver Coleção Atual
+                <a href="SEU_LINK_SHOT_JEANS_AQUI" target="_blank" rel="noopener noreferrer" class="btn btn-outline-navy">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/>
+                  </svg>
+                  Ver Coleção
                 </a>
               </div>
             </div>
@@ -291,71 +268,64 @@
     </section>
 
 
-    <!-- ════════════════════════════════════════════════
-         DIFERENCIAIS B2B
-         ════════════════════════════════════════════════ -->
-    <section class="differentials" id="diferenciais" aria-label="Diferenciais do representante">
+    <!-- ═══════════════════════════════════════════════════════
+         DIFERENCIAIS
+         ═══════════════════════════════════════════════════════ -->
+    <section class="differentials" id="diferenciais">
       <div class="container">
 
         <header class="section-header reveal">
           <span class="section-label">Por que escolher</span>
           <h2 class="section-title">Diferenciais</h2>
-          <div class="divider-ornament" aria-hidden="true">
+          <div class="divider-ornament">
             <span class="divider-ornament__line"></span>
             <span class="divider-ornament__diamond"></span>
             <span class="divider-ornament__line"></span>
           </div>
-          <p class="section-desc" style="color: rgba(255,255,255,0.55);">
+          <p class="section-desc">
             Mais do que um representante — um parceiro estratégico para o crescimento da sua loja.
           </p>
         </header>
 
         <div class="diff__grid">
 
-          <!-- Card 1: Cobertura Regional -->
           <div class="diff-card reveal reveal-delay-1">
-            <div class="diff-card__icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-                <circle cx="12" cy="10" r="3"/>
+            <div class="diff-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
               </svg>
             </div>
             <div class="diff-card__num">01</div>
             <h3 class="diff-card__title">Cobertura Regional</h3>
             <p class="diff-card__desc">
-              Atendimento personalizado e presencial em todo o Triângulo Mineiro, Alto Paranaíba e Norte de MG. Sua loja sempre terá a atenção que merece, onde quer que esteja.
+              Atendimento personalizado em todo o Triângulo Mineiro e Norte de MG. Sua loja sempre terá a atenção que merece.
             </p>
           </div>
 
-          <!-- Card 2: Experiência -->
           <div class="diff-card reveal reveal-delay-2">
-            <div class="diff-card__icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10"/>
-                <polyline points="12 6 12 12 16 14"/>
+            <div class="diff-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
               </svg>
             </div>
             <div class="diff-card__num">02</div>
-            <h3 class="diff-card__title">Expertise de 32 Anos</h3>
+            <h3 class="diff-card__title">32 Anos de Expertise</h3>
             <p class="diff-card__desc">
-              Três décadas no mercado têxtil traduzidas em leituras precisas de tendência, conhecimento de sazonalidade e visão comercial estratégica para o varejo.
+              Três décadas de mercado traduzidas em leitura precisa de tendências e visão comercial estratégica.
             </p>
           </div>
 
-          <!-- Card 3: Suporte ao Lojista -->
           <div class="diff-card reveal reveal-delay-3">
-            <div class="diff-card__icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
-                <circle cx="9" cy="7" r="4"/>
-                <path d="M23 21v-2a4 4 0 00-3-3.87"/>
-                <path d="M16 3.13a4 4 0 010 7.75"/>
+            <div class="diff-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/>
               </svg>
             </div>
             <div class="diff-card__num">03</div>
-            <h3 class="diff-card__title">Suporte ao Lojista</h3>
+            <h3 class="diff-card__title">Suporte Consultivo</h3>
             <p class="diff-card__desc">
-              Apoio consultivo na montagem do mix ideal para seu perfil de loja. Da seleção das peças à estratégia de exposição, para maximizar suas vendas.
+              Apoio na montagem do mix ideal para seu perfil. Da seleção à exposição, para maximizar suas vendas.
             </p>
           </div>
 
@@ -364,29 +334,25 @@
     </section>
 
 
-
-    <!-- ════════════════════════════════════════════════
+    <!-- ═══════════════════════════════════════════════════════
          CTA BANNER
-         ════════════════════════════════════════════════ -->
-    <section class="cta-banner" aria-label="Chamada para ação">
+         ═══════════════════════════════════════════════════════ -->
+    <section class="cta-banner">
       <div class="container">
         <div class="reveal">
           <span class="section-label">Pronto para crescer?</span>
           <h2 class="cta-banner__title">
-            Leve as marcas certas<br />para a sua loja hoje
+            Leve as marcas certas para sua loja hoje
           </h2>
           <p class="cta-banner__desc">
-            Entre em contato e agende uma visita sem compromisso.
-            Juntos vamos montar o mix perfeito para o seu negócio.
+            Entre em contato e agende uma visita. Vamos montar o mix perfeito para o seu negócio.
           </p>
           <div class="cta-banner__actions">
-            <a
-              href="https://wa.me/553491971317?text=Olá%2C%20Marcos!%20Gostaria%20de%20agendar%20uma%20visita%20para%20conhecer%20as%20marcas."
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn btn-whatsapp"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <a href="https://wa.me/553491971317?text=Olá%2C%20Marcos!%20Gostaria%20de%20agendar%20uma%20visita." 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn btn-whatsapp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
               </svg>
               Chamar no WhatsApp
@@ -399,112 +365,106 @@
   </main>
 
 
-  <!-- ════════════════════════════════════════════════
+  <!-- ═══════════════════════════════════════════════════════
        FOOTER
-       ════════════════════════════════════════════════ -->
-  <footer class="footer" id="contato" aria-label="Rodapé com informações de contato">
+       ═══════════════════════════════════════════════════════ -->
+  <footer class="footer" id="contato">
     <div class="container">
       <div class="footer__grid">
 
-        <!-- Coluna: Marca / Bio -->
         <div class="footer__brand">
-          <div class="logo" aria-label="Marcos Camargo Garcia">
+          <div class="logo">
             <span class="logo__name">Marcos Camargo</span>
             <span class="logo__sub">Representante Comercial</span>
           </div>
           <p>
             Mais de 32 anos conectando marcas premium ao varejo de moda no Triângulo Mineiro, Alto Paranaíba e Norte de Minas Gerais.
           </p>
-          <nav class="footer__socials" aria-label="Redes sociais">
-            <!-- Instagram -->
-            <a href="https://instagram.com/marcoscamargogarcia51" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram de Marcos Camargo">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+          <nav class="footer__socials">
+            <a href="https://instagram.com/marcoscamargogarcia51" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
                 <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
               </svg>
             </a>
-            <!-- WhatsApp -->
-            <a href="https://wa.me/553491971317" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="WhatsApp de Marcos Camargo">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <a href="https://wa.me/553491971317" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="WhatsApp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
               </svg>
             </a>
-
           </nav>
         </div>
 
-        <!-- Coluna: Marcas -->
-        <div class="footer__col">
-          <h3 class="footer__col-title">Marcas</h3>
-          <ul class="footer__list" role="list">
-            <li>
-              <a href="SEU_LINK_PURAMANIA_AQUI" target="_blank" rel="noopener noreferrer">
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+        <div class="footer__cols-secondary">
+          <div class="footer__col">
+            <h3 class="footer__col-title">Marcas</h3>
+            <ul class="footer__list">
+              <li><a href="SEU_LINK_PURAMANIA_AQUI" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"/>
+                </svg>
                 Puramania
-              </a>
-            </li>
-            <li>
-              <a href="SEU_LINK_YEXX_AQUI" target="_blank" rel="noopener noreferrer">
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+              </a></li>
+              <li><a href="SEU_LINK_YEXX_AQUI" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"/>
+                </svg>
                 YEXX
-              </a>
-            </li>
-            <li>
-              <a href="SEU_LINK_SHOT_JEANS_AQUI" target="_blank" rel="noopener noreferrer">
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+              </a></li>
+              <li><a href="SEU_LINK_SHOT_JEANS_AQUI" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"/>
+                </svg>
                 Shot Jeans
-              </a>
-            </li>
-          </ul>
-        </div>
+              </a></li>
+            </ul>
+          </div>
 
-        <!-- Coluna: Navegação -->
-        <div class="footer__col">
-          <h3 class="footer__col-title">Navegação</h3>
-          <ul class="footer__list" role="list">
-            <li><a href="#inicio">
-              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
-              Início
-            </a></li>
-            <li><a href="#marcas">
-              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
-              Marcas
-            </a></li>
-            <li><a href="#diferenciais">
-              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
-              Diferenciais
-            </a></li>
-            <li><a href="#lojas">
-              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
-              Portfólio
-            </a></li>
-          </ul>
-        </div>
+          <div class="footer__col">
+            <h3 class="footer__col-title">Navegação</h3>
+            <ul class="footer__list">
+              <li><a href="#inicio">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"/>
+                </svg>
+                Início
+              </a></li>
+              <li><a href="#marcas">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"/>
+                </svg>
+                Marcas
+              </a></li>
+              <li><a href="#diferenciais">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"/>
+                </svg>
+                Diferenciais
+              </a></li>
+            </ul>
+          </div>
 
-        <!-- Coluna: Contato -->
-        <div class="footer__col">
-          <h3 class="footer__col-title">Contato</h3>
-          <ul class="footer__list" role="list">
-            <li>
-              <a href="https://wa.me/553491971317" target="_blank" rel="noopener noreferrer" aria-label="Contato por WhatsApp">
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.09 9.81a19.79 19.79 0 01-3.07-8.64A2 2 0 012 .81h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          <div class="footer__col">
+            <h3 class="footer__col-title">Contato</h3>
+            <ul class="footer__list">
+              <li><a href="https://wa.me/553491971317" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.09 9.81a19.79 19.79 0 01-3.07-8.64A2 2 0 012 .81h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+                </svg>
                 (34) 9197-1317
-              </a>
-            </li>
-
-            <li>
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </a></li>
+              <li><span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+                </svg>
                 Triângulo Mineiro, Alto Paranaíba e Norte de MG
-              </span>
-            </li>
-          </ul>
+              </span></li>
+            </ul>
+          </div>
         </div>
 
       </div>
 
-      <!-- Bottom bar -->
       <div class="footer__bottom">
         <p class="footer__copy">
           &copy; 2025 <span>Marcos Camargo Garcia</span>. Todos os direitos reservados.
@@ -513,55 +473,7 @@
     </div>
   </footer>
 
-
-  <!-- ════════════════════════════════════════════════
-       JAVASCRIPT — Comportamentos interativos
-       ════════════════════════════════════════════════ -->
-  <script>
-    /* ── Header: adiciona classe .scrolled ao rolar ── */
-    const header = document.getElementById('header');
-    window.addEventListener('scroll', () => {
-      header.classList.toggle('scrolled', window.scrollY > 20);
-    }, { passive: true });
-
-    /* ── Mobile Menu Toggle ── */
-    const navToggle = document.getElementById('navToggle');
-    const navMobile = document.getElementById('navMobile');
-
-    navToggle.addEventListener('click', () => {
-      const isOpen = navMobile.classList.toggle('open');
-      navToggle.classList.toggle('open', isOpen);
-      navToggle.setAttribute('aria-expanded', String(isOpen));
-      navMobile.setAttribute('aria-hidden', String(!isOpen));
-    });
-
-    /* Fecha menu mobile ao clicar em um link */
-    navMobile.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        navMobile.classList.remove('open');
-        navToggle.classList.remove('open');
-        navToggle.setAttribute('aria-expanded', 'false');
-        navMobile.setAttribute('aria-hidden', 'true');
-      });
-    });
-
-    /* ── Intersection Observer — Animações de scroll ── */
-    const revealElements = document.querySelectorAll('.reveal');
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          observer.unobserve(entry.target); /* Anima só uma vez */
-        }
-      });
-    }, {
-      threshold: 0.12,
-      rootMargin: '0px 0px -40px 0px'
-    });
-
-    revealElements.forEach(el => observer.observe(el));
-  </script>
+  <script src="main.js"></script>
 
 </body>
 </html>
