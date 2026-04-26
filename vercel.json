@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "marcoscamargorepresentante.com.br"
+        }
+      ],
+      "destination": "https://www.marcoscamargorepresentante.com.br/$1",
+      "permanent": true
+    }
+  ]
+}
