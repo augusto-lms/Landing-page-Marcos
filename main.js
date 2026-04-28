@@ -1,4 +1,4 @@
-(function() {
+﻿(function() {
   'use strict';
 
   // ── 1. HEADER SCROLL ──────────────────────────────────────
